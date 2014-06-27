@@ -1,0 +1,28 @@
+@import 'compass/reset';
+@import 'compass/css3';
+@import 'compass';
+
+// colors
+
+
+html, body {
+  background: #fff;
+  color: #222;
+  background-repeat: repeat;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  white-space: nowrap;
+}
+
+strong {
+  font-weight: bold;
+}
+
+@import '_mixins';
+@import '_mini_projects';
+@import '_projects';

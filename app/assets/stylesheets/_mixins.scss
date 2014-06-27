@@ -1,0 +1,11 @@
+@mixin project-box($color) {
+  .build-dot{
+    background: $color;
+  }
+}
+@mixin age-coloring($name, $color, $scolor){
+  .age-#{$name}{ 
+    p.status { color: $scolor }
+    a{ color: $color; }
+  }
+}
